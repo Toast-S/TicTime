@@ -34,7 +34,7 @@ function renderBoard(board) {
 }
 
 function highlightWinningCells(line) {
-  for (let i = 0; i < line.length - 1; i++) {
+  for (let i = 0; i < line.length; i++) {
     cellEls[line[i]].classList.add('win');
   }
 }

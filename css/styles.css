@@ -9,7 +9,7 @@
 }
 [data-theme="dark"] {
   --bg-1: #0f0c29; --bg-2: #241450;
-  --text: #f5f3ff; --muted: #a5b4fc;
+  --text: #fffdfd; --muted: #d4d8ea;
   --panel: rgba(255,255,255,.07); --panel-border: rgba(255,255,255,.14);
   --card-bg: rgba(255,255,255,.08); --cell-bg: rgba(255,255,255,.07); --cell-hover: rgba(255,255,255,.13);
   --shadow: 0 20px 50px rgba(0,0,0,.45);
@@ -47,7 +47,7 @@ h1 { margin: 0; font-size: 2.1rem; font-weight: 800; letter-spacing: -.03em; bac
 
 /* ---------- Scoreboard ---------- */
 .scoreboard { display: grid; grid-template-columns: repeat(3, 1fr); gap: 12px; margin-bottom: 18px; }
-.score-card { background: #ffffff; border-radius: 18px; padding: 12px 8px; text-align: center; border-bottom: 4px solid #c7c3e0; box-shadow: 0 6px 16px rgba(0,0,0,.06); }
+.score-card { background: var(--card-bg); border-radius: 18px; padding: 12px 8px; text-align: center; border-bottom: 4px solid var(--accent); }
 .score-card.x { border-color: var(--x); }
 .score-card.o { border-color: var(--o); }
 .score-label { display: block; font-size: .75rem; color: var(--muted); }
